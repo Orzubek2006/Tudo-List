@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.box {
+    width: 330px;
+    height: 100px;
+    position: relative;
+    /* background: #870bbc; */
+    border-radius: 10px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tex {
+    width: 250px;
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(40px);
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+}
+
+.box_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(40px);
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    color: #fff;
+}
+
+.btn:hover {
+    background: linear-gradient(60deg, blue,rgb(18, 141, 203),rgb(64, 0, 255));
+}
+
+li { 
+    width: 330px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(40px);
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.but {
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    background: blue;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.butt {
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
